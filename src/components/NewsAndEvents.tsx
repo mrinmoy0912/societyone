@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, ArrowRight, Bell, Newspaper, Award } from 'lucide-react';
+import { Calendar, ArrowRight } from 'lucide-react';
 
 const newsItems = [
   {
