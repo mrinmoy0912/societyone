@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, Trophy, Coffee, Sparkles, Compass } from 'lucide-react';
+import { Trophy, Coffee, Sparkles, Compass } from 'lucide-react';
 
 const campusFeatures = [
   {
@@ -32,7 +32,7 @@ export const CampusLife: React.FC = () => {
   return (
     <section id="campus-life" className="py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-iimGreen font-bold text-xs uppercase tracking-widest px-3 py-1 bg-iimGreen-subtle rounded-full">
@@ -51,7 +51,7 @@ export const CampusLife: React.FC = () => {
           {campusFeatures.map((item, index) => {
             const Icon = item.icon;
             return (
-              <div 
+              <div
                 key={index}
                 className="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100 flex flex-col justify-between"
               >

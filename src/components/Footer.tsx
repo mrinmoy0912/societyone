@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Mail, Globe, ArrowUp, Facebook, Twitter, Linkedin, Youtube, Instagram } from 'lucide-react';
+import { MapPin, Phone, Mail, ArrowUp } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -9,10 +9,10 @@ export const Footer: React.FC = () => {
   return (
     <footer id="contact" className="bg-iimNavy text-white pt-20 pb-12 border-t border-iimGreen/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
-        
+
         {/* Top Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 pb-16 border-b border-white/10">
-          
+
           {/* Institute Info */}
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center gap-3">
@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
             </div>
 
             <p className="text-gray-300 text-sm leading-relaxed max-w-sm">
-              Diamond Harbour Road, Joka, Kolkata - 700104, West Bengal, India. 
+              Diamond Harbour Road, Joka, Kolkata - 700104, West Bengal, India.
               Asia's finest management institution committed to leadership, research, and nation building.
             </p>
 
@@ -83,20 +83,20 @@ export const Footer: React.FC = () => {
               Follow official social channels for real-time updates, admissions notices, and research highlights.
             </p>
             <div className="flex items-center gap-3 pt-2">
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="p-2.5 rounded-full bg-white/10 hover:bg-iimGreen text-white transition-colors">
-                <Linkedin size={18} />
+              <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="p-2.5 rounded-full bg-white/10 hover:bg-iimGreen text-white transition-colors flex items-center justify-center">
+                <span className="text-xs font-bold">in</span>
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noreferrer" aria-label="Twitter" className="p-2.5 rounded-full bg-white/10 hover:bg-iimGreen text-white transition-colors">
-                <Twitter size={18} />
+              <a href="https://twitter.com" target="_blank" rel="noreferrer" aria-label="Twitter" className="p-2.5 rounded-full bg-white/10 hover:bg-iimGreen text-white transition-colors flex items-center justify-center">
+                <span className="text-xs font-bold">X</span>
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook" className="p-2.5 rounded-full bg-white/10 hover:bg-iimGreen text-white transition-colors">
-                <Facebook size={18} />
+              <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook" className="p-2.5 rounded-full bg-white/10 hover:bg-iimGreen text-white transition-colors flex items-center justify-center">
+                <span className="text-xs font-bold">f</span>
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noreferrer" aria-label="YouTube" className="p-2.5 rounded-full bg-white/10 hover:bg-iimGreen text-white transition-colors">
-                <Youtube size={18} />
+              <a href="https://youtube.com" target="_blank" rel="noreferrer" aria-label="YouTube" className="p-2.5 rounded-full bg-white/10 hover:bg-iimGreen text-white transition-colors flex items-center justify-center">
+                <span className="text-xs font-bold">▶</span>
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram" className="p-2.5 rounded-full bg-white/10 hover:bg-iimGreen text-white transition-colors">
-                <Instagram size={18} />
+              <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram" className="p-2.5 rounded-full bg-white/10 hover:bg-iimGreen text-white transition-colors flex items-center justify-center">
+                <span className="text-xs font-bold">📷</span>
               </a>
             </div>
           </div>
