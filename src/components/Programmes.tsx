@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Briefcase, GraduationCap, Award, Users, ArrowRight, Clock, FileText } from 'lucide-react';
+import { ArrowRight, Clock, FileText } from 'lucide-react';
 
 const programmesData = [
   {
